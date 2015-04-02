@@ -1,7 +1,6 @@
 body {
 font-size: 10pt;
 font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-color:black;
 line-height: 14pt;
 padding-left: 5pt;
 padding-right: 5pt;
@@ -9,16 +8,27 @@ padding-top: 5pt
 
 }
     
-h1 {
+h1.silly {
     font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    line-height: 20pt;
+    line-height: 10pt;
+    color: green;
+    font-size: 20pt
 
 }
    
+h1.serious {
+    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 10pt;
+    color: blue;
+    font-size: 20pt
+
+}   
 p.subheader {
     font-weight: bold;
     color: #593d87;
+
 }
 
 img{
